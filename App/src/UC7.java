@@ -2,24 +2,7 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
-// Bogie class
-class Bogie {
-    String name;
-    int capacity;
-
-    // Constructor
-    Bogie(String name, int capacity) {
-        this.name = name;
-        this.capacity = capacity;
-    }
-
-    // toString() for printing
-    public String toString() {
-        return name + " -> " + capacity;
-    }
-}
-
-public class TrainConsistApp {
+public class UC7{
 
     public static void main(String[] args) {
 
